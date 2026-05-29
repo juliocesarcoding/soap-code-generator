@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "SOAP Code Generator",
     images: [
       {
-        url: "https://soaptojs.vercel.app/og-image.png",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "SOAP Code Generator",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "SOAP Code Generator",
     description:
       "Convert SOAP XML requests and responses into JavaScript code instantly.",
-    images: ["https://soaptojs.vercel.app/og-image.png"],
+    images: ["/og-image.png"],
   },
 };
 
