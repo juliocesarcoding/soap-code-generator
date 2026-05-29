@@ -14,6 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "SOAP Code Generator",
+  metadataBase: new URL("https://soaptojs.vercel.app"),
   description: "Create Javascript code from SOAP XML in a blink of an eye",
   openGraph: {
     title: "SOAP Code Generator",
