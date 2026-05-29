@@ -15,6 +15,31 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "SOAP Code Generator",
   description: "Create Javascript code from SOAP XML in a blink of an eye",
+  openGraph: {
+    title: "SOAP Code Generator",
+    description:
+      "Convert SOAP XML requests and responses into JavaScript code instantly.",
+    url: "https://soaptojs.vercel.app",
+    siteName: "SOAP Code Generator",
+    images: [
+      {
+        url: "https://soaptojs.vercel.app/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "SOAP Code Generator",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "SOAP Code Generator",
+    description:
+      "Convert SOAP XML requests and responses into JavaScript code instantly.",
+    images: ["https://soaptojs.vercel.app/og-image.png"],
+  },
 };
 
 export default function RootLayout({
